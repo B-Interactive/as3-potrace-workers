@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/29.0">
+  <id>org.bink.as3PotraceWorkers.AS3-Potrace-Workers</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>AS3-Potrace-Workers</filename>
+	<architecture>64</architecture>
+  <name>
+    <text xml:lang="en">AS3-Potrace-Workers</text>
+  </name>
+  <copyright>David Armstrong 2018</copyright>
+  <initialWindow>
+    <title>AS3-Potrace-Workers</title>
+    <content>AS3-Potrace-Workers.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <renderMode>gpu</renderMode>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <description>
+    <text xml:lang="en">
+    </text>
+  </description>
+  <supportedProfiles>extendedDesktop</supportedProfiles>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <supportedLanguages>en</supportedLanguages>
+</application>
